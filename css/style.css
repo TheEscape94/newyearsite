@@ -29,41 +29,60 @@ h3 {
 }
 
 .main-nav-el h1 small {
-   color: #888888;
-    animation: silver-white 0.5s infinite; 
+    color: #888888;
+    animation: silver-white 0.5s infinite;
 }
 
 @keyframes silver-white {
     0% {
         color: #888888;
-    } 
+    }
     50% {
         color: #fff;
-    } 
+    }
     100% {
-         color: #888888;
+        color: #888888;
     }
 }
 
-@keyframes gold-white{
+.a-right {
+    animation: blue-white 800ms infinite;
+}
+
+@keyframes blue-white {
     0% {
         color: #fff;
-    } 
+        background: #5bc0de
+    }
+    50% {
+        color: #5bc0de;
+        background: #fff;
+    }
+    100% {
+        color: #fff;
+        background: #5bc0de
+    }
+}
+
+@keyframes gold-white {
+    0% {
+        color: #fff;
+    }
     50% {
         color: #fbad50;
-    } 
+    }
     100% {
         color: #fff;
     }
 }
 
-@keyframes white-gold{
+@keyframes white-gold {
     0% {
         color: #fbad50;
-    } 
+    }
     50% {
         color: #fff;
-    } 
+    }
     100% {
         color: #fbad50;
     }
@@ -181,6 +200,16 @@ footer ul li p {
     background: transparent;
 }
 
+.comment-panel i {
+    font-size: 16px;
+    color: #fbad50;
+}
+
+.comment-panel h3 span {
+    font-family: 'Nunito', sans-serif;
+    animation: gold-white 0.8s infinite;
+}
+
 .q_1_100 {
     border: 1px solid rgba(0, 0, 0, 0.3);
     background: transparent;
@@ -213,7 +242,7 @@ footer ul li p {
     animation: jingle 0.6s infinite;
 }
 
-@keyframes jingle{
+@keyframes jingle {
     0% {
         transform: scale(1.05) rotate(-3deg);
     }
@@ -247,14 +276,14 @@ footer ul li p {
     box-shadow: 5px 5px 15px #575757;
     border-radius: 8px;
     width: 24%;
-    height: 31vh;
+    height: 35vh;
     margin: 1vh 0.5%;
     float: left;
     position: relative;
 }
 
 .card:hover {
-    transform: scale(1.07);
+    transform: scale(1.08);
     transition: 1s all;
     cursor: pointer;
 }
@@ -263,6 +292,7 @@ footer ul li p {
     width: 100%;
     height: 48%;
 }
+
 .card-header img {
     width: 100%;
     height: 100%;
@@ -276,12 +306,14 @@ footer ul li p {
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
 .card .circle-image img {
     height: 50px;
     width: 50px;
     margin: 0 5px;
     float: left;
 }
+
 .card .circle-image .ribon {
     height: 70px;
     width: 50px;
@@ -292,8 +324,9 @@ footer ul li p {
 hr {
     margin: 5px 0 8px 0;
 }
+
 .card .copy {
-    padding: 30px 10px 5px 10px;
+    padding: 35px 10px 5px 10px;
 }
 
 .card p {
@@ -302,7 +335,7 @@ hr {
 
 .card p span {
     max-width: 100%;
-    word-break:break-all;
+    word-break: break-all;
 }
 
 .shake_it {
