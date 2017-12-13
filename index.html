@@ -1,0 +1,211 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <title>Doček Nove Godine 2018 u Novom Sadu</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- header -->
+
+    <header>
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container-fluid main-nav-el">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">
+                        <img src="img/logo.png" alt="gdezaovunovu.com" />
+                    </a>
+                </div>
+                <ul class="nav navbar-nav">
+                    <li>
+                        <p class="position"></p>
+                    </li>
+                    <li>
+                        <p class="dimension"></p>
+                    </li>
+                </ul>
+                <h1 class="pull-left">Sve žurke u <i>gradu</i> ! <small>Na klik ste do svih dešavanja za najluđu noć !</small></h1>
+
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a class="numberOfQ"></a>
+                    </li>
+                    <li><button class="btn btn-danger navbar-btn" data-toggle="modal" data-target="#putMyBannerHere"><i class="fa fa-bookmark-o"></i> Postavi reklamu</button></li>
+                    <li><a href="javascript:void(0)" data-toggle="modal" data-target="#aboutThis"><i class="fa fa-info-circle"></i> O sajtu</a></li>
+                    <li><a href="javascript:void(0)" data-toggle="modal" data-target="#contactThisSite"><i class="fa fa-envelope-o"></i> Kontakt</a></li>
+                    <li>
+                        <button class="btn btn-info navbar-btn a-right">Recenzije <i class="fa fa-arrow-right"></i></button>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- containers -->
+
+    <div class="container-fluid main side">
+        <div class="panel network">
+        </div>
+    </div>
+    <div class="container-fluid main aside">
+        <div class="panel comment-panel">
+        </div>
+    </div>
+
+    <!-- preview container -->
+
+    <div class="preview_container"><img src='' alt="gdezaovunovu.com" /></div>
+
+    <!-- arrows -->
+
+    <div class="side-arrow-holder h-left">
+        <img class="side-arrow a-left" src="img/arrow_left.png" />
+    </div>
+
+    <!-- footer -->
+
+    <footer>
+        <ul>
+            <li class="pull-left">
+                <p>All rights reserved &copy; by <strong>gdezaovunovu.com</strong></p>
+            </li>
+            <li class="pull-right">
+                <p>Slobodno: <span class="label label-warning free">0</span></p>
+            </li>
+            <li class="pull-right">
+                <p>Zauzeto: <span class="label label-success used">0</span></p>
+            </li>
+            <li class="pull-right">
+                <p>Ukupno: <span class="label label-info total"></span></p>
+            </li>
+        </ul>
+        <br/>
+    </footer>
+
+    <!-- modals -->
+
+    <!-- postavi reklamu modal -->
+
+    <div id="putMyBannerHere" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title text-danger">Kako da postavim svoju reklamu?</h4>
+                </div>
+                <div class="modal-body">
+                    <h3 class="text-info">Koliko tvoja reklama vredi kvadrata?</h3>
+                    <p class="text-warning">Misliš da si dobro organizovao žurku za doček Nove 2018te? Hoćeš da ljudi izaberu baš tvoj lokal i da baš kod tebe provedu <strong>najluđu noć</strong>?</p><br/>
+                    <p class="text-success">Odlično! Hrabro od tebe! Mi smo tu da ti pomognemo da okupiš što veću ekipu! Više o tome kako ti pomažemo možeš pogledati na linku <span class="label label-info">o sajtu</span>.</p>
+                    <br/>
+                    <p class="text-warning">Da bi prijava bila uspešna potrebno je sledeće:</p>
+                    <ul>
+                        <li>Broj kvadrata u obliku x * y <span class="text-muted">(npr. 4*3 je slika 4 kvadrata širine, 3 visine)</span></li>
+                        <li>Slika/baner ili šta god, samo da je u formatu .jpg, .jpeg, .png ili .gif</li>
+                        <li>Link na koji posetioci odlaze kada kliknu na Vašu reklamu <span class="text-muted">(npr. dogadjaj na fb, stranica na fb, vaš sajt itd.)</span></li>
+                        <li>Tvoje ime i broj telefona <span class="text-danger">(Obavezno!)</span></li>
+                        <li>E sada sve to pošalji na email: <strong>office@gdezaovunovu.com</strong></li>
+                        <li>Uskoro nakon toga se čujemo!</li>
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                    <p class="text-center text-success">www.gdezaovunovu.com</p><br/>
+                    <p class="pull-left">Ako niste na <span class="text-danger"><strong>gdezaovunovu.com</strong></span>, kao i da ne organizujete ništa!</p>
+                    <button type="button" class="btn btn-default pull-right" data-dismiss="modal">Zatvori</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- o sajtu modal -->
+
+    <div id="aboutThis" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title text-success">O sajtu</h4>
+                </div>
+                <div class="modal-body">
+                    <p class="text-info">Pre svega, dobrodošli na <strong>gdezaovunovu.com</strong>!</p><br/>
+                    <p class="text-info">Sajt je namenjen promovisanju ponuda za najludju noć tj doček <span class="label label-warning">Nove 2018.</span> godine.</p>
+                    <br/>
+                    <p>Ideja sajta je da Vašu ponudu servira i razglasi kao i da da do znanja širem auditorijumu kako <strong>domaćih</strong> tako i <strong>stranih</strong> posetilaca gde je najbolji provod u gradu, odnosno da im obezbedi mogućnost da oni sami izaberu gde će se to oni najbolje provesti to veče.</p><br>
+                    <p>Naime, u moru flajera koji nepročitani završe u kantama, plakata koji budu prelepljeni i isforsiranih copy/paste kampanja na društvenim mrežama koje nas prate još od Novembra i koje niko ne čita, mi smo se odlučili da na malo kreativniji način uradimo promociju i pokušamo da korisnicima i posetiocima predstavimo što veči (a nadamo se i celokupan) program našeg grada.</p><br/>
+                    <p>Ideja je vrlo jednostavna, a što je još bolje i jeftina! Skoro pa besplatna kada se uporedi šta se sve dobija za odredjenu cenu. Na Vama je da izaberete veličinu koju želite da Vaša reklama zauzme na našem panelu, zatim nam prosledite neophodne informacije koje su opisane pod <span class="label label-danger">Postavi reklamu</span> i posvetite se organizaciji da sve bude kako treba i valja kada pristignu gosti.</p>
+                    <br/>
+                    <p>Šta <span class="text-success"><strong>gdezaovunovu.com</strong></span> nudi svojim korisnicima:</p>
+                    <ul>
+                        <li>Promocije na lokalnim medijima (021.rs, RTV)</li>
+                        <li>Promocije na dogadjajima koji će se održavati u periodu do Nove Godine na kojima učestvujemo direktno ili indirektno</li>
+                        <li>Promocije na drušvenim mrežama. Naša mala redakcija je vlasnik preko <strong>15 stranica</strong> na <u>facebook</u>-u i <u>instagram</u>-u sa preko <strong>250.000 pratilaca</strong> sa ovih prostora</li>
+                        <li>Promocije na stranicama u inostranstvu (Nemačka, Austrija, Slovačka i Slovenija). I sami ste svesni da svake godine srećemo sve više pijanih Slovenaca po gradu u sitne sate.</li>
+                        <li>Dizajn, izrada i plansko deljenje flajera na Winter Festu, Dunavskom parku i na manifestacijama sve do Nove Godine.</li>
+                        <li>Naša mala redakcija je takodje i ponosni vlasnik nekoliko desetina sajtova (34) i nekoliko aplikacija, tako da i ponudi imamo i sponzorisane objave (baneri) na našim sajtovima i aplikacijama</li>
+                        <li><strong>Direkan marketing</strong> - direktna komunikacija sa bazom naših korisnika putem mejla i telefona (preko <strong>4000</strong> kontakata) </li>
+                    </ul>
+                    <p>Kada sve ovo ponudjeno stavite na jedan tas, a na drugi tas cenu, izračunajte sami.</p>
+                    <div class="well text-center" style="margin:5px 0;">1 kvadrat = 5 &#8364</div>
+                    <p class="text-danger price-desc">*Cena kvadrata važi do 17.12. u 00:00h</p><br/>
+
+                    <p>I da, nismo se predstavili, tim koji stoji iza ovog sajta je ustvari tim stručnjaka iz sektora social media marketinga, marketinga, psihologije potrošača, zatim proframiranja kao i sektora za optimizaciju za pretraživače (SEO). Radi izbegavanja sukoba interesa, trudićemo se da ostanemo anonimni, a da nas upamtite po rezultatima.</p>
+                </div>
+                <div class="modal-footer">
+                    <p class="text-center text-success">www.gdezaovunovu.com</p><br/>
+                    <p class="pull-left">Ako niste na <span class="text-danger"><strong>gdezaovunovu.com</strong></span>, kao i da ne organizujete ništa!</p>
+                    <button type="button" class="btn btn-default pull-right" data-dismiss="modal">Zatvori</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- kontakt modal -->
+
+    <div id="contactThisSite" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title text-warning">Kontakt redakcije sajta</h4>
+                </div>
+                <div class="modal-body">
+                    <p class="text-info">Naša mala redakcija Vam stoji na raspolaganju za sva pitanja.</p>
+                    <p class="text-info">Bilo koje pitanje u vezi našeg rada, rezultata koje možete očekivati i bilo kakvih nedoumica pišite nam na mejl: </p>
+                    <h3 class="text-center"><strong>office@gdezaovunovu.com</strong></h3>
+                </div>
+                <div class="modal-footer">
+                    <p class="text-center text-success">www.gdezaovunovu.com</p><br/>
+                    <p class="pull-left">Ako niste na <span class="text-danger"><strong>gdezaovunovu.com</strong></span>, kao i da ne organizujete ništa!</p>
+                    <button type="button" class="btn btn-default pull-right" data-dismiss="modal">Zatvori</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/functions.js"></script>
+    <script src="js/banners.js"></script>
+    <script src="js/comments.js"></script>
+    <script src="js/zoom-in.js"></script>
+</body>
+
+</html>
